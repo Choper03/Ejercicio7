@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="contenedor-1">
+            <div class="notas"> 
+                <h1><center>Ingrese Sus Notas</center></h1>
+                <h2>Nota 1:</h2>
+                <input type="number" class="caja" id="nota-1"><br>
+                <h2>Nota 2:</h2>
+                <input type="number" class="caja" id="nota-2"><br>
+                <h2>Nota 3:</h2>
+                <input type="number" class="caja" id="nota-3"><br>
+                <h2>Nota 4:</h2>
+                <input type="number" class="caja" id="nota-4"><br><br>
+            </div>
+            <div class="botones"><br><br>
+                <div class="izquierda">
+                    <button onclick="calcular()">Calcular</button>
+                </div>
+                <div class="derecha">
+                    <button onclick="limpiar()">Borrar</button>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-2">
+            <div class="respuesta" id="xd"><br>
+                <h2>Su resultado es: </h2>
+                <h3 id="resultado"></h3><br>
+                <h2>Aprobó</h2>
+                <h3 id="aprobo"></h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
